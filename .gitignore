@@ -1,5 +1,48 @@
-# Object file
-*.o
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
 
-# Ada Library Information
-*.ali
+# Arquivos de ambiente Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.env
+
+# Logs e arquivos temporários
+*.log
+*.out
+*.tmp
+*.temp
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de saída de Jupyter Notebooks
+.ipynb_checkpoints
+
+# Dados sensíveis
+*.csv
+*.tsv
+*.data
+*.json
+*.xlsx
+*.xls
+
+# Modelos e checkpoints
+*.h5
+*.ckpt
+*.joblib
+*.pkl
+
+# Arquivos gerados por bibliotecas de Machine Learning
+*.model
+*.xgb
